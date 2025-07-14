@@ -10,7 +10,7 @@ This is my solution to the [Social links profile challenge on Frontend Mentor](h
 ## 🔗 Links
 
 - Solution URL: [Solution URL](https://github.com/Meshak-Charuka/Social-links-profile)
-- Live Site URL:[ Live Site URL](https://recipe-page-six-liard.vercel.app/)
+- Live Site URL:[ Live Site URL]([https://recipe-page-six-liard.vercel.app/](https://social-links-profile-rho-wheat.vercel.app/))
 
 ## 🛠️ Built with
 
