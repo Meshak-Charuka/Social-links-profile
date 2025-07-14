@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.contener {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius:.3em;
+}
+
+.contener .section-one img {
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.contener .section-one h3 {
+    color: white;
+    font-family: Inter;
+    font-weight: 100;
+}
+
+
+.contener .section-one .addresse {
+    color: hsl(75, 94%, 57%);
+    margin: 10px;
+}
+
+
+.contener .section-one .bio {
+
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.contener .section-two {
+    margin: 10px;
+}
+
+.contener .section-two button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+
+}
+.contener .section-two button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+@media (min-width: 600px){
+    .contener{
+        width: 60%;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .contener{
+        width: 30%;
+    }
+    
+}
